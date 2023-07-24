@@ -1774,14 +1774,11 @@ input, select, textarea {
 	}
 
 	header.major {
-		width: -moz-max-content;
-		width: -webkit-max-content;
-		width: -ms-max-content;
-		width: max-content;
-		margin-bottom: 2em;
-		 word-wrap: break-word;
-		
-	}
+	width: 100%;
+	margin-bottom: 2em;
+	word-wrap: break-word;
+	font-size: calc(16px + 1vw); 
+}
 
 		header.major > :first-child {
 			margin-bottom: 0;
