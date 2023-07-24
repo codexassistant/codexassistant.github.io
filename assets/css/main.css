@@ -1774,11 +1774,11 @@ input, select, textarea {
 	}
 
 	header.major {
-	width: 100%;
-	margin-bottom: 2em;
-	word-wrap: break-word;
-	font-size: calc(16px + 1vw); 
-}
+		
+		margin-bottom: 2em;
+		
+	}
+
 
 		header.major > :first-child {
 			margin-bottom: 0;
