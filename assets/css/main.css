@@ -1774,27 +1774,30 @@ input, select, textarea {
 	}
 
 header.major {
-	width: -moz-max-content;
-	width: -webkit-max-content;
-	width: -ms-max-content;
-	width: max-content;
-	margin-bottom: 2em;
-	font-family: Impact, fantasy;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -ms-max-content;
+    width: max-content;
+    margin-bottom: 2em;
+    font-family: Impact, fantasy;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 /* Styles for tablets (devices with width between 768px and 1024px) */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-	header.major {
-		width: 100%;
-	}
+    header.major {
+        width: 100%;
+    }
 }
 
 /* Styles for mobile phones (devices with width less than 768px) */
 @media screen and (max-width: 767px) {
-	header.major {
-		width: 100%;
-	}
+    header.major {
+        width: 100%;
+    }
 }
+
 
 
 
