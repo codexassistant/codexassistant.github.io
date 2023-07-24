@@ -4603,4 +4603,6 @@ input, select, textarea {
 		height: 155px;
 		width: auto; /* or you can set it to a specific value but 'auto' will keep the aspect ratio */
 	}
+}header.major h1 {
+    word-wrap: break-word;
 }
