@@ -1788,6 +1788,8 @@ header.major {
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     header.major {
         width: 100%;
+	      overflow-wrap: break-word;
+    word-wrap: break-word;
     }
 }
 
@@ -1795,6 +1797,8 @@ header.major {
 @media screen and (max-width: 767px) {
     header.major {
         width: 100%;
+	      overflow-wrap: break-word;
+    word-wrap: break-word;
     }
 }
 
