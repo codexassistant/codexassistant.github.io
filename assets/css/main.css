@@ -1775,26 +1775,11 @@ input, select, textarea {
 
 	/* Default styles */
 header.major {
-	width: -moz-max-content;
-	width: -webkit-max-content;
-	width: -ms-max-content;
-	width: max-content;
+ 
 	margin-bottom: 2em;
 }
 
-/* Styles for tablets (devices with width between 768px and 1024px) */
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-	header.major {
-		width: 20%;
-	}
-}
 
-/* Styles for mobile phones (devices with width less than 768px) */
-@media screen and (max-width: 767px) {
-	header.major {
-		width: 20%;
-	}
-}
 
 
 
