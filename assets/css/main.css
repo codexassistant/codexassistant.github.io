@@ -1785,14 +1785,14 @@ header.major {
 /* Styles for tablets (devices with width between 768px and 1024px) */
 @media screen and (max-width: 1024px) and (min-width: 768px) {
 	header.major {
-		width: 100%;
+		width: 20%;
 	}
 }
 
 /* Styles for mobile phones (devices with width less than 768px) */
 @media screen and (max-width: 767px) {
 	header.major {
-		width: 100%;
+		width: 20%;
 	}
 }
 
