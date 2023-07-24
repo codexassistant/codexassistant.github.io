@@ -1773,13 +1773,14 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	/* Default styles */
 header.major {
- 
-	margin-bottom: 2em;
-}
-
-
+		width: -moz-max-content;
+		width: -webkit-max-content;
+		width: -ms-max-content;
+		width: max-content;
+		margin-bottom: 2em;
+		
+	}
 
 
 
